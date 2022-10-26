@@ -1,0 +1,50 @@
+/* Universal */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --myBlue: #14213d;
+  --myCyan: #d7f9f1;
+  --myYellow: #fca311;
+}
+
+body {
+  background-color: var(--myCyan);
+}
+
+/* Header Style */
+#main {
+  display: flex;
+  background-color: var(--myBlue);
+  width: 100%;
+  color: white;
+  border-bottom: 5px solid var(--myYellow);
+}
+
+#main h1 {
+  font-size: 52px;
+  margin: 10px;
+  font-family: "Kanit", sans-serif;
+}
+#main li {
+  list-style-type: none;
+}
+/* About Style */
+#about {
+  display: flex;
+}
+
+/* Projects Style */
+#projects {
+  display: flex;
+}
+
+/* Contact */
+#contact {
+  display: flex;
+}
+
+/* Media Queries */
