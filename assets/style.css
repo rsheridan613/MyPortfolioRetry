@@ -21,14 +21,13 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: var(--myBlue);
-  width: 100%;
   color: white;
   border-bottom: 5px solid var(--myYellow);
 }
 
 #main h1 {
   font-size: 52px;
-  margin: 16px;
+  margin: 40px;
   font-family: "Kanit", sans-serif;
 }
 
@@ -36,17 +35,21 @@ body {
   list-style-type: none;
   cursor: pointer;
   display: inline;
-  padding: 10px;
+  font-family: "Lato", sans-serif;
+  margin-right: 40px;
+  font-size: 24px;
 }
 
 /* About Style */
 #about {
   display: flex;
+  font-family: "Lato", sans-serif;
 }
 
 /* Projects Style */
 #projects {
   display: flex;
+  font-family: "Lato", sans-serif;
 }
 
 /* Contact */
@@ -54,6 +57,30 @@ body {
   display: flex;
   background-color: var(--myBlue);
   color: white;
+  font-family: "Lato", sans-serif;
+  border-top: 5px solid var(--myYellow);
+}
+#contact li {
+  width: 25vw;
+  display: flex;
+  list-style-type: none;
+  display: inline;
+  font-size: 24px;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin: 32px 64px 32px 32px;
+}
+
+.info {
+  display: flex;
+}
+.info ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 /* .aside Style */
@@ -61,6 +88,9 @@ body {
   display: flex;
   justify-content: end;
   flex-wrap: wrap;
+  flex-direction: column;
+  border-right: 5px solid var(--myYellow);
+  width: 255px;
 }
 
 .aside img {
