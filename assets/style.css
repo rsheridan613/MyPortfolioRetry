@@ -1,4 +1,4 @@
-/* Universal */
+/* General Style */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -18,6 +18,8 @@ body {
 /* Header Style */
 #main {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--myBlue);
   width: 100%;
   color: white;
@@ -26,12 +28,17 @@ body {
 
 #main h1 {
   font-size: 52px;
-  margin: 10px;
+  margin: 16px;
   font-family: "Kanit", sans-serif;
 }
+
 #main li {
   list-style-type: none;
+  cursor: pointer;
+  display: inline;
+  padding: 10px;
 }
+
 /* About Style */
 #about {
   display: flex;
@@ -45,6 +52,30 @@ body {
 /* Contact */
 #contact {
   display: flex;
+  background-color: var(--myBlue);
+  color: white;
+}
+
+/* .aside Style */
+.aside {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.aside img {
+  width: 250px;
+}
+
+/* .bulk Style */
+.bulk {
+  display: flex;
 }
 
 /* Media Queries */
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
