@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="assets/style.css" />
     <title>Ryan Sheridan</title>
   </head>
@@ -19,41 +25,73 @@
     <header id="main">
       <h1>Ryan Sheridan</h1>
       <ul>
-        <li href="#about">About Me</li>
-        <li href="#projects">My Projects</li>
-        <li href="#contact">Contact Me</li>
+        <li class="nav-bar" href="#about">About Me</li>
+        <li class="nav-bar" href="#projects">My Projects</li>
+        <li class="nav-bar" href="#contact">Contact Me</li>
       </ul>
     </header>
 
     <!-- About -->
     <section id="about">
-      <h2>About Me</h2>
-      <img
-        src="assets/only.good.picture.resized.jpg"
-        alt="Recent picture of me"
-      />
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-        perferendis dolorem voluptatem temporibus alias enim cupiditate? Labore,
-        quidem? Ad optio inventore provident beatae voluptate maiores qui
-        repellendus repudiandae dolorem voluptas.
-      </p>
+      <div class="aside">
+        <h2>About Me</h2>
+        <img
+          src="assets/only.good.picture.resized.jpg"
+          alt="Recent picture of me"
+        />
+      </div>
+      <div class="bulk">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+          perferendis dolorem voluptatem temporibus alias enim cupiditate?
+          Labore, quidem? Ad optio inventore provident beatae voluptate maiores
+          qui repellendus repudiandae dolorem voluptas.
+        </p>
+      </div>
     </section>
 
     <!-- Projects -->
     <section id="projects">
-      <h2>My Projects</h2>
-      <div></div>
+      <div class="aside">
+        <h2>My Projects</h2>
+      </div>
+      <div class="bulk">
+        <a
+          href="https://ryanstephens6.github.io/distance-from-ISS/"
+          target="_blank"
+        >
+          <img
+            class="project-img"
+            src="assets/Project_1_Screenshot.png"
+            alt="Screenshot of 'Where ISS It?'"
+          />
+        </a>
+        <img />
+        <img />
+      </div>
     </section>
 
     <!-- Contact -->
     <footer id="contact">
       <h2>Contact Me</h2>
-      <ul>
-        <li>Phone</li>
-        <li>Email</li>
-        <li>Github</li>
-      </ul>
+      <div class="info">
+        <ul>
+          <li>
+            Phone:
+            <p>(720) 530-5544</p>
+          </li>
+          <li>
+            Email:
+            <p>rsheridan613@gmail.com</p>
+          </li>
+          <li>
+            Github
+            <a href="https://github.com/rsheridan613" target="_blank">
+              <p class="link">rsheridan613</p></a
+            >
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
